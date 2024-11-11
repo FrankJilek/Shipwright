@@ -655,6 +655,7 @@ void KaleidoScope_DrawQuestStatus(PlayState* play, GraphicsContext* gfxCtx) {
                             break;
                     }
                     /// OLD FUNCTIONALITY
+                    // todo: remove if not needed
                     /*if (gOcarinaSongNotes[sp224].notesIdx[phi_s3] == 0) {
                         gDPSetPrimColor(POLY_KAL_DISP++, 0, 0, aButtonColor.r, aButtonColor.g, aButtonColor.b,
                                         Notes_alpha);
